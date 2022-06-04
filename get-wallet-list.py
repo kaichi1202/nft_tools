@@ -16,3 +16,5 @@ newList = map(addQuotation, list)
 
 with open('./list.txt', 'w') as tf:
   tf.write('[' + ', '.join(newList) + ']')
+
+print(str(len(list)) + ' users')
